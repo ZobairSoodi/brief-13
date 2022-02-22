@@ -18,6 +18,6 @@ CREATE TABLE Product(
     quantity INT
 );
 CREATE TABLE Order_(
-	id_oder INT PRIMARY KEY,
+	id_order INT PRIMARY KEY,
     
 )
