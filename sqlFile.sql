@@ -19,5 +19,7 @@ CREATE TABLE Product(
 );
 CREATE TABLE Order_(
 	id_order INT PRIMARY KEY,
-    
-)
+    quantity_ordered INT,
+    date_ordered DATE,
+    shipping_adress VARCHAR(50)
+);
