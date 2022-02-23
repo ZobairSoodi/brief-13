@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?PowerDesigner AppLocale="UTF16" ID="{50F79902-5BAB-4355-8D1C-BDEF0E4F0D06}" Label="" LastModificationDate="1645534014" Name="Diagramme de classes UML_1" Objects="33" Symbols="11" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
+<?PowerDesigner AppLocale="UTF16" ID="{50F79902-5BAB-4355-8D1C-BDEF0E4F0D06}" Label="" LastModificationDate="1645609048" Name="Diagramme de classes UML_1" Objects="29" Symbols="5" Target="Analyse" TargetLink="Reference" Type="{18112060-1A4B-11D1-83D9-444553540000}" signature="CLD_OBJECT_MODEL" version="15.1.0.2850"?>
 <!-- Veuillez ne pas modifier ce fichier -->
 
 <Model xmlns:a="attribute" xmlns:c="collection" xmlns:o="object">
@@ -12,7 +12,7 @@
 <a:Code>Diagramme_de_classes_UML_1</a:Code>
 <a:CreationDate>1645530412</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1645532957</a:ModificationDate>
+<a:ModificationDate>1645608740</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:PackageOptionsText>[FolderOptions]
 
@@ -2033,6 +2033,7 @@ IndxFKName=%REFR%_FK
 IndxThreshold=
 ColnFKName=%.3:PARENT%_%COLUMN%
 ColnFKNameUse=No
+PreserveMode=Yes
 
 [ModelOptions\Generate\Xsm]
 CheckModel=Yes
@@ -2052,9 +2053,21 @@ NameToCode=No</a:ModelOptionsText>
 <a:TargetID>E59D604C-74CC-4292-9801-8DBA35198FFC</a:TargetID>
 <a:TargetClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetClassID>
 </o:Shortcut>
+<o:Shortcut Id="o4">
+<a:ObjectID>38192A15-937F-4456-B505-82D96380F176</a:ObjectID>
+<a:Name>MPD-Diagramme de classes UML_1</a:Name>
+<a:Code>DIAGRAMME_DE_CLASSES_UML_1</a:Code>
+<a:CreationDate>1645608740</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1645608740</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:TargetStereotype/>
+<a:TargetID>1388F77E-5AD9-4EE2-A51C-B483BDB8AE51</a:TargetID>
+<a:TargetClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetClassID>
+</o:Shortcut>
 </c:GeneratedModels>
 <c:ObjectLanguage>
-<o:Shortcut Id="o4">
+<o:Shortcut Id="o5">
 <a:ObjectID>A5B11166-1AB7-4B2A-BF49-7417727C4CC6</a:ObjectID>
 <a:Name>Analyse</a:Name>
 <a:Code>Analysis</a:Code>
@@ -2068,13 +2081,13 @@ NameToCode=No</a:ModelOptionsText>
 </o:Shortcut>
 </c:ObjectLanguage>
 <c:ClassDiagrams>
-<o:ClassDiagram Id="o5">
+<o:ClassDiagram Id="o6">
 <a:ObjectID>60A8D239-867F-481D-97F4-C9152AF60FD1</a:ObjectID>
-<a:Name>DiagrammeClasses_1</a:Name>
-<a:Code>DiagrammeClasses_1</a:Code>
+<a:Name>diagramme de classe</a:Name>
+<a:Code>diagramme_de_classe</a:Code>
 <a:CreationDate>1645530412</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1645532500</a:ModificationDate>
+<a:ModificationDate>1645609035</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:DisplayPreferences>[DisplayPreferences]
 
@@ -2486,28 +2499,28 @@ Shadow=0</a:DisplayPreferences>
 <a:PageOrientation>1</a:PageOrientation>
 <a:PaperSource>15</a:PaperSource>
 <c:Symbols>
-<o:AssociationSymbol Id="o6">
+<o:AssociationSymbol Id="o7">
 <a:CreationDate>1645531743</a:CreationDate>
 <a:ModificationDate>1645531790</a:ModificationDate>
 <a:Rect>((-15300,1338), (10650,3686))</a:Rect>
 <a:ListOfPoints>((-15300,2512),(10650,2512))</a:ListOfPoints>
 <a:CornerStyle>2</a:CornerStyle>
-<a:ArrowStyle>8</a:ArrowStyle>
+<a:ArrowStyle>0</a:ArrowStyle>
 <a:LineColor>4194432</a:LineColor>
 <a:ShadowColor>12632256</a:ShadowColor>
 <a:FontList>DISPNAME 0 Arial,8,N
 MULA 0 Arial,8,N</a:FontList>
 <c:SourceSymbol>
-<o:ClassSymbol Ref="o7"/>
+<o:ClassSymbol Ref="o8"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o8"/>
+<o:ClassSymbol Ref="o9"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:Association Ref="o9"/>
+<o:Association Ref="o10"/>
 </c:Object>
 </o:AssociationSymbol>
-<o:AssociationClassLinkSymbol Id="o10">
+<o:AssociationClassLinkSymbol Id="o11">
 <a:CreationDate>1645532500</a:CreationDate>
 <a:ModificationDate>1645532500</a:ModificationDate>
 <a:Rect>((-2325,-5099), (-1273,2512))</a:Rect>
@@ -2518,16 +2531,16 @@ MULA 0 Arial,8,N</a:FontList>
 <a:DashStyle>2</a:DashStyle>
 <a:ShadowColor>12632256</a:ShadowColor>
 <c:SourceSymbol>
-<o:AssociationSymbol Ref="o6"/>
+<o:AssociationSymbol Ref="o7"/>
 </c:SourceSymbol>
 <c:DestinationSymbol>
-<o:ClassSymbol Ref="o11"/>
+<o:ClassSymbol Ref="o12"/>
 </c:DestinationSymbol>
 <c:Object>
-<o:AssociationClassLink Ref="o12"/>
+<o:AssociationClassLink Ref="o13"/>
 </c:Object>
 </o:AssociationClassLinkSymbol>
-<o:ClassSymbol Id="o8">
+<o:ClassSymbol Id="o9">
 <a:CreationDate>1645530524</a:CreationDate>
 <a:ModificationDate>1645531790</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -2547,10 +2560,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o13"/>
+<o:Class Ref="o14"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o7">
+<o:ClassSymbol Id="o8">
 <a:CreationDate>1645530524</a:CreationDate>
 <a:ModificationDate>1645531786</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -2572,10 +2585,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <a:ManuallyResized>1</a:ManuallyResized>
 <c:Object>
-<o:Class Ref="o14"/>
+<o:Class Ref="o15"/>
 </c:Object>
 </o:ClassSymbol>
-<o:ClassSymbol Id="o11">
+<o:ClassSymbol Id="o12">
 <a:CreationDate>1645532412</a:CreationDate>
 <a:ModificationDate>1645532412</a:ModificationDate>
 <a:IconMode>-1</a:IconMode>
@@ -2595,27 +2608,27 @@ LABL 0 Arial,8,N</a:FontList>
 <a:GradientFillMode>65</a:GradientFillMode>
 <a:GradientEndColor>16777215</a:GradientEndColor>
 <c:Object>
-<o:Class Ref="o15"/>
+<o:Class Ref="o16"/>
 </c:Object>
 </o:ClassSymbol>
 </c:Symbols>
 </o:ClassDiagram>
 </c:ClassDiagrams>
 <c:DefaultDiagram>
-<o:ClassDiagram Ref="o5"/>
+<o:ClassDiagram Ref="o6"/>
 </c:DefaultDiagram>
 <c:Classes>
-<o:Class Id="o13">
+<o:Class Id="o14">
 <a:ObjectID>C86D29DB-02C2-40A8-8502-F37F5903FB83</a:ObjectID>
 <a:Name>Product</a:Name>
 <a:Code>Product</a:Code>
 <a:CreationDate>1645530524</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1645532173</a:ModificationDate>
+<a:ModificationDate>1645608688</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o16">
+<o:Attribute Id="o17">
 <a:ObjectID>115A44A3-837C-48DE-A1FC-03BE85427FB4</a:ObjectID>
 <a:Name>id_product</a:Name>
 <a:Code>id_product</a:Code>
@@ -2625,7 +2638,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>int</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o17">
+<o:Attribute Id="o18">
 <a:ObjectID>05E1D1DD-98A9-42CF-B4D1-F9DA9B670EF8</a:ObjectID>
 <a:Name>label</a:Name>
 <a:Code>label</a:Code>
@@ -2635,7 +2648,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o18">
+<o:Attribute Id="o19">
 <a:ObjectID>006D9BDF-FCC8-4B26-8A9C-ED36DAF71797</a:ObjectID>
 <a:Name>description</a:Name>
 <a:Code>description</a:Code>
@@ -2645,7 +2658,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o19">
+<o:Attribute Id="o20">
 <a:ObjectID>E2714C92-E93D-4FEF-8437-AD8C8FA04EBB</a:ObjectID>
 <a:Name>price</a:Name>
 <a:Code>price</a:Code>
@@ -2655,7 +2668,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>float</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o20">
+<o:Attribute Id="o21">
 <a:ObjectID>C6FC94EE-EF03-4D71-8239-74DECAF21B00</a:ObjectID>
 <a:Name>quantity</a:Name>
 <a:Code>quantity</a:Code>
@@ -2667,17 +2680,17 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 </o:Class>
-<o:Class Id="o14">
+<o:Class Id="o15">
 <a:ObjectID>63BCCB94-2455-4F01-A666-2486A72D145D</a:ObjectID>
 <a:Name>Client</a:Name>
 <a:Code>Client</a:Code>
 <a:CreationDate>1645530524</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1645532173</a:ModificationDate>
+<a:ModificationDate>1645608688</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o21">
+<o:Attribute Id="o22">
 <a:ObjectID>3622F4DA-30CA-43C5-8E33-834B373BB9C4</a:ObjectID>
 <a:Name>id_client</a:Name>
 <a:Code>id_client</a:Code>
@@ -2687,7 +2700,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>int</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o22">
+<o:Attribute Id="o23">
 <a:ObjectID>4AF6C733-684E-4CA0-BEFD-726F7502385A</a:ObjectID>
 <a:Name>firstName</a:Name>
 <a:Code>firstName</a:Code>
@@ -2697,7 +2710,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o23">
+<o:Attribute Id="o24">
 <a:ObjectID>17D8B546-032E-422B-9743-499A5322171E</a:ObjectID>
 <a:Name>lastName</a:Name>
 <a:Code>lastName</a:Code>
@@ -2707,7 +2720,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o24">
+<o:Attribute Id="o25">
 <a:ObjectID>6828D2E3-2437-4EFB-8663-CADE5F72CF4B</a:ObjectID>
 <a:Name>adress</a:Name>
 <a:Code>adress</a:Code>
@@ -2717,7 +2730,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o25">
+<o:Attribute Id="o26">
 <a:ObjectID>0E2B900C-8B8F-43A6-B6C9-D5763AF0BA82</a:ObjectID>
 <a:Name>phone</a:Name>
 <a:Code>phone</a:Code>
@@ -2727,7 +2740,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o26">
+<o:Attribute Id="o27">
 <a:ObjectID>C2BF26A1-95CB-4FD9-8D2F-7563988439E3</a:ObjectID>
 <a:Name>email</a:Name>
 <a:Code>email</a:Code>
@@ -2737,7 +2750,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>String</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o27">
+<o:Attribute Id="o28">
 <a:ObjectID>4D15F426-C9D4-48E5-A6EB-4300CE3FA0EB</a:ObjectID>
 <a:Name>password</a:Name>
 <a:Code>password</a:Code>
@@ -2749,7 +2762,7 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Attribute>
 </c:Attributes>
 </o:Class>
-<o:Class Id="o15">
+<o:Class Id="o16">
 <a:ObjectID>A64F7C49-0CC9-4C06-8305-EDAA6A4DDD89</a:ObjectID>
 <a:Name>Order</a:Name>
 <a:Code>Order</a:Code>
@@ -2759,7 +2772,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:UseParentNamespace>0</a:UseParentNamespace>
 <c:Attributes>
-<o:Attribute Id="o28">
+<o:Attribute Id="o29">
 <a:ObjectID>5D32368A-0BA8-47A4-8EDE-241B6EC53ADD</a:ObjectID>
 <a:Name>id_order</a:Name>
 <a:Code>id_order</a:Code>
@@ -2769,7 +2782,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>int</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o29">
+<o:Attribute Id="o30">
 <a:ObjectID>5DC1201D-7247-4D82-9CDB-B88C2686E289</a:ObjectID>
 <a:Name>quantity_orderde</a:Name>
 <a:Code>quantity_orderde</a:Code>
@@ -2779,7 +2792,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>int</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o30">
+<o:Attribute Id="o31">
 <a:ObjectID>A21825B4-6ED5-4ECB-A7EC-6B67F4AFB787</a:ObjectID>
 <a:Name>date</a:Name>
 <a:Code>date</a:Code>
@@ -2789,7 +2802,7 @@ LABL 0 Arial,8,N</a:FontList>
 <a:Modifier>Solicode</a:Modifier>
 <a:DataType>Date</a:DataType>
 </o:Attribute>
-<o:Attribute Id="o31">
+<o:Attribute Id="o32">
 <a:ObjectID>6FED5761-984A-4D9B-B63C-5EA09FB3E94F</a:ObjectID>
 <a:Name>shipping_adress</a:Name>
 <a:Code>shipping_adress</a:Code>
@@ -2803,41 +2816,42 @@ LABL 0 Arial,8,N</a:FontList>
 </o:Class>
 </c:Classes>
 <c:Associations>
-<o:Association Id="o9">
+<o:Association Id="o10">
 <a:ObjectID>B7A4C382-624E-404C-AA49-C61CFA6A64C8</a:ObjectID>
 <a:Name>buy</a:Name>
 <a:Code>buy</a:Code>
 <a:CreationDate>1645531743</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
-<a:ModificationDate>1645532500</a:ModificationDate>
+<a:ModificationDate>1645608688</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
-<a:RoleAMultiplicity>1..1</a:RoleAMultiplicity>
+<a:RoleAMultiplicity>1..*</a:RoleAMultiplicity>
 <a:RoleBMultiplicity>1..*</a:RoleBMultiplicity>
+<a:RoleBNavigability>0</a:RoleBNavigability>
 <c:Object1>
-<o:Class Ref="o13"/>
+<o:Class Ref="o14"/>
 </c:Object1>
 <c:Object2>
-<o:Class Ref="o14"/>
+<o:Class Ref="o15"/>
 </c:Object2>
 </o:Association>
 </c:Associations>
 <c:AssociationClassLinks>
-<o:AssociationClassLink Id="o12">
+<o:AssociationClassLink Id="o13">
 <a:ObjectID>CE4B98DC-DFC8-4451-9202-46D5BDD1F08C</a:ObjectID>
 <a:CreationDate>1645532500</a:CreationDate>
 <a:Creator>Solicode</a:Creator>
 <a:ModificationDate>1645532500</a:ModificationDate>
 <a:Modifier>Solicode</a:Modifier>
 <c:Object1>
-<o:Class Ref="o15"/>
+<o:Class Ref="o16"/>
 </c:Object1>
 <c:Object2>
-<o:Association Ref="o9"/>
+<o:Association Ref="o10"/>
 </c:Object2>
 </o:AssociationClassLink>
 </c:AssociationClassLinks>
 <c:TargetModels>
-<o:TargetModel Id="o32">
+<o:TargetModel Id="o33">
 <a:ObjectID>EC04C6F1-F1B1-4B61-AF47-DC8A579E08DE</a:ObjectID>
 <a:Name>Analyse</a:Name>
 <a:Code>Analysis</a:Code>
@@ -2849,10 +2863,10 @@ LABL 0 Arial,8,N</a:FontList>
 <a:TargetModelID>87317290-AF03-469F-BC1E-99593F18A4AB</a:TargetModelID>
 <a:TargetModelClassID>1811206C-1A4B-11D1-83D9-444553540000</a:TargetModelClassID>
 <c:SessionShortcuts>
-<o:Shortcut Ref="o4"/>
+<o:Shortcut Ref="o5"/>
 </c:SessionShortcuts>
 </o:TargetModel>
-<o:TargetModel Id="o33">
+<o:TargetModel Id="o34">
 <a:ObjectID>CC0F5055-8DC7-497C-B566-6680A493314D</a:ObjectID>
 <a:Name>Diagramme de classes UML_1</a:Name>
 <a:Code>DIAGRAMME_DE_CLASSES_UML_1</a:Code>
@@ -2865,6 +2879,21 @@ LABL 0 Arial,8,N</a:FontList>
 <a:TargetModelClassID>1E597170-9350-11D1-AB3C-0020AF71E433</a:TargetModelClassID>
 <c:SessionShortcuts>
 <o:Shortcut Ref="o3"/>
+</c:SessionShortcuts>
+</o:TargetModel>
+<o:TargetModel Id="o35">
+<a:ObjectID>83B01D5D-C5C1-4FDD-8815-3F8A95A44D8A</a:ObjectID>
+<a:Name>MPD-Diagramme de classes UML_1</a:Name>
+<a:Code>DIAGRAMME_DE_CLASSES_UML_1</a:Code>
+<a:CreationDate>1645608740</a:CreationDate>
+<a:Creator>Solicode</a:Creator>
+<a:ModificationDate>1645609048</a:ModificationDate>
+<a:Modifier>Solicode</a:Modifier>
+<a:TargetModelURL>file:///C|/Users/Solicode/Desktop/Briefs/brief-13/MPD-Diagramme de classes UML_1.mpd</a:TargetModelURL>
+<a:TargetModelID>1388F77E-5AD9-4EE2-A51C-B483BDB8AE51</a:TargetModelID>
+<a:TargetModelClassID>CDE44E21-9669-11D1-9914-006097355D9B</a:TargetModelClassID>
+<c:SessionShortcuts>
+<o:Shortcut Ref="o4"/>
 </c:SessionShortcuts>
 </o:TargetModel>
 </c:TargetModels>
