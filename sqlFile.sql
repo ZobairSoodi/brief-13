@@ -40,13 +40,15 @@ INSERT INTO Order_ VALUES
 
 CREATE TABLE Order_Product_Details(
 	quantity_ INT,
-    id_product INT REFERENCES Product(id_product),
-    id_order INT REFERENCES Order_(id_order),
-    PRIMARY KEY(id_product,id_order)
+    id_product INT,
+    FOREIGN KEY(id_product) REFERENCES Product(id_product),
+    id_order INT,
+    FOREIGN KEY(id_order) REFERENCES Order_(id_order)
 );
+ALTER TABLE Order_Product_Details
+ADD PRIMARY KEY(id_product,id_order);
 INSERT INTO Order_Product_Details VALUES
 (12,1,1),
 (10,2,1),
 (12,1,2),
 (1,3,1);
-
