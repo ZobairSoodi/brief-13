@@ -54,6 +54,9 @@ INSERT INTO Order_Product_Details VALUES
 (12,1,2),
 (1,3,1);
 
+
+
+
 /* R1 */
 SELECT * FROM Client;
 
