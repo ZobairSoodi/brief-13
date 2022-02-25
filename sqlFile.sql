@@ -82,8 +82,17 @@ SELECT * FROM Product WHERE price > 5;
 SELECT * FROM Product WHERE quantity_in_stock = 0;
 
 /* R8 */
+SELECT C.id_client, C.firstName, C.lastName,O.shipping_adress,O.date_ordered,OPD.quantity_ FROM Order_ O
+INNER JOIN Client C ON C.id_client = O.id_client
+INNER JOIN Order_Product_DEtails OPD ON OPD.id_order = O.id_order
+WHERE C.firstName = 'fn1' AND C.lastName = 'ln1' AND O.date_ordered = '2013-06-12';
 
-
+/* R9 */
+SELECT C.id_client, C.firstName, C.lastName,O.shipping_adress,O.date_ordered,OPD.quantity_, (OPD.quantity_*P.price) FROM Order_ O
+INNER JOIN Client C ON C.id_client = O.id_client
+INNER JOIN Order_Product_DEtails OPD ON OPD.id_order = O.id_order
+INNER JOIN Product P ON P.id_product = OPD.id_product
+WHERE C.firstName = 'fn1' AND C.lastName = 'ln1' AND O.date_ordered = '2013-06-12';
 
 
 
