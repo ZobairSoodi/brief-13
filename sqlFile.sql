@@ -33,6 +33,7 @@ CREATE TABLE Order_(
     shipping_adress VARCHAR(50),
     id_client INT REFERENCES Client(id_client)
 );
+ALTER TABLE Order_ ADD FOREIGN KEY (id_client) REFERENCES Client(id_client);
 INSERT INTO Order_ VALUES
 (1,'2013-06-12','ad1',1),
 (2,'2014-06-01','ad2',2),
@@ -52,3 +53,34 @@ INSERT INTO Order_Product_Details VALUES
 (10,2,1),
 (12,1,2),
 (1,3,1);
+
+/* R1 */
+SELECT * FROM Client;
+
+/* R2 */
+SELECT * FROM Client
+ORDER BY firstName, lastName;
+
+/* R3 */
+SELECT * FROM Order_ WHERE date_ordered = '2013-06-12';
+
+/* R4 */
+SELECT COUNT(id_order) FROM Order_ O
+INNER JOIN Client C ON O.id_client = C.id_client
+WHERE C.firstName = 'fn1' AND C.lastName = 'ln1';
+
+/* R5 */
+SELECT * FROM Product;
+
+/* R6 */
+SELECT * FROM Product WHERE price > 5;
+
+/* R7 */
+SELECT * FROM Product WHERE quantity_in_stock = 0;
+
+/* R8 */
+
+
+
+
+
